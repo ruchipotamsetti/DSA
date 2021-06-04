@@ -44,5 +44,6 @@ int main(){
     int result = majorityElement(a, n);
     cout<<result;
     return 0;
+    
 }
 
