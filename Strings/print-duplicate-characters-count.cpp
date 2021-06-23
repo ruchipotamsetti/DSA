@@ -1,4 +1,4 @@
-//Write an efficient program to print all the duplicates and their counts in the input string
+//Problem: Write an efficient program to print all the duplicates and their counts in the input string
 
 #include<bits\stdc++.h>
 using namespace std;
