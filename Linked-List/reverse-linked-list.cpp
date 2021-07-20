@@ -50,7 +50,7 @@ public:
     }
 
 
-    void reverse1(){ //iterative approach
+    void reverse1(){ //iterative approach, TC:O(N), SC:O(1)
         node *prev = NULL;
         node *curr = head;
         node *nxt = NULL;
@@ -66,7 +66,7 @@ public:
     }
 
 
-    void rev(){ //recursive approach
+    void rev(){ //recursive approach, TC:O(N), SC:O(1)
         head = reverse2(head); //calling recursive function
 
     }
