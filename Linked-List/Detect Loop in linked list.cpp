@@ -16,7 +16,8 @@
         // in hashmap it means there is a cycle
         // (Because you we encountering the
         // node for the second time).
-            if(s.find(temp) != s.endd())
+            if(s.find(temp) != s.endd()) //  find returns end iterator if key is not found,
+                                        //  else it returns iterator to that key
                 return "True";
 
         // If we are seeing the node for
