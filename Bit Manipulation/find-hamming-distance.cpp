@@ -2,6 +2,7 @@
 Problem statement: Find the no. of bits that have to be changed to convert a to b. (or)
 Find Hamming distance between a and b.
 (Hamming distance is the number of bit positions in which the two bits are different.)
+
 */
 
 #include<bits/stdc++.h>
