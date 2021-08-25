@@ -6,7 +6,7 @@ int maxSubarray(int *a, int n){ //Iterating through each element and adding it t
                                 //Discarding that subarray if sum is -ve.
                                 //Kaden's Algorithm
     int curSum = 0;
-    int maxSum = 0;
+    int maxSum = INT_MIN;
     for(int i = 0; i < n; i++){
         curSum = curSum + a[i];
         if(curSum > maxSum){
